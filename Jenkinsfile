@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('Example') {
+        stage('Build') {
             steps { 
-                sh 'mvn compile'
+                echo "build is running"
             }
         }
     }
